@@ -65,13 +65,3 @@ INSERT INTO salaries (salary_id, employee_id, salary) VALUES
 (9, 109, 88000.00),
 (10, 110, 60000.00);
   
--- The Scenario
--- You are a new junior analyst on the HR team. Your manager has asked you to answer a question to help with an upcoming budget meeting.
--- Your Task:
--- "The Finance department needs to know the total annual payroll for each department. They also want to see the average salary for each department. Please provide a list of each department's name, its total salary expenditure, and its average salary. They would like to see the departments with the highest total payroll first."
-
--- This single task will require you to:
--- 1. Join the three tables (employees, salaries, and departments).
--- 2. Use aggregate functions (SUM and AVG).
--- 3. Use the GROUP BY clause.
--- 4. Use the ORDER BY clause.
